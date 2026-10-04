@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" width="400" height="360" role="img" aria-label="Futuristic frameless TV floating above a small projector that beams white light up to it">
+<style>
+  .tv-float{animation:tv-float 5s ease-in-out infinite}
+  .tv-glow{animation:tv-glow 2.6s ease-in-out infinite}
+  .tv-static{animation:tv-static .35s steps(2) infinite}
+  .tv-heat{animation:tv-heat 2.4s ease-in-out infinite}
+  .tv-rise{animation:tv-rise 3.6s ease-out infinite}
+  .tv-twinkle{animation:tv-twinkle 2.2s ease-in-out infinite}
+  .tv-spin{animation:tv-spin 4s linear infinite}
+  .tv-zap{animation:tv-zap 1.2s steps(1) infinite}
+  .tv-holo{animation:tv-holo 4s steps(1) infinite}
+  .tv-flow{animation:tv-flow .8s linear infinite}
+  .tv-charge{animation:tv-charge 1.6s steps(1) infinite}
+  .tv-sweep{animation:tv-sweep 3s linear infinite}
+  @keyframes tv-float{50%{transform:translateY(-10px)}}
+  @keyframes tv-glow{50%{opacity:.45}}
+  @keyframes tv-static{50%{transform:translate(3px,2px)}}
+  @keyframes tv-heat{50%{transform:translateY(-6px);opacity:.35}}
+  @keyframes tv-rise{0%{transform:translateY(0);opacity:0}20%{opacity:1}100%{transform:translateY(-60px);opacity:0}}
+  @keyframes tv-twinkle{50%{opacity:.25}}
+  @keyframes tv-spin{to{rotate:360deg}}
+  @keyframes tv-zap{0%{opacity:1}35%{opacity:.15}55%{opacity:1}70%{opacity:.4}}
+  @keyframes tv-holo{0%,100%{opacity:.9}62%{opacity:.75}64%{opacity:.9}}
+  @keyframes tv-charge{50%{opacity:.25}}
+  @keyframes tv-flow{to{stroke-dashoffset:-20}}
+  @keyframes tv-sweep{0%{transform:translateY(0)}100%{transform:translateY(162px)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+
+  <defs>
+    <linearGradient id="h-beam" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity=".95"/><stop offset="1" stop-color="#ffffff" stop-opacity=".35"/></linearGradient>
+  </defs>
+  <ellipse cx="200" cy="336" rx="110" ry="8" fill="#000" opacity=".10"/>
+  <!-- beam: from the projector's top straight to the screen's bottom corners -->
+  <path class="tv-glow" d="M156 312 L244 312 L364 278 L36 278 Z" fill="url(#h-beam)"/>
+  <path d="M156 312 L36 278 M244 312 L364 278" stroke="#1c211e" stroke-width="2" stroke-linecap="round"/>
+  <!-- projector puck -->
+  <path d="M154 312 L154 324 A46 8 0 0 0 246 324 L246 312 Z" fill="#1c211e"/>
+  <ellipse cx="200" cy="312" rx="46" ry="8" fill="#ffffff" stroke="#1c211e" stroke-width="2"/>
+  <ellipse cx="200" cy="312" rx="24" ry="3.5" fill="#e6f7ff"/>
+  <!-- the screen -->
+  <rect x="22" y="38" width="356" height="240" rx="14" fill="#14181c"/>
+  <clipPath id="fut-clip"><rect x="26" y="42" width="348" height="232" rx="11"/></clipPath>
+  <g clip-path="url(#fut-clip)"><g transform="translate(26 42) scale(1.16 1.288888888888889)"><defs><linearGradient id="fut-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5fd3f3"/><stop offset="1" stop-color="#d8fbff"/></linearGradient></defs>
+    <rect width="300" height="180" fill="url(#fut-sky)"/><circle cx="228" cy="46" r="34" fill="#ffd34d" opacity=".25"/><circle cx="228" cy="46" r="22" fill="#ffd34d"/><path d="M0 120 C50 96 90 100 140 112 C190 124 240 92 300 104 L300 180 L0 180 Z" fill="#4fdc8f"/><g transform="translate(62 104) scale(1)"><path d="M-1.6 0 L1.6 0 L.8 -40 L-.8 -40 Z" fill="#ffffff"/>
+            <g transform="translate(0 -40)"><g class="tv-spin"><path transform="rotate(0)" d="M0 0 L-2.4 -18 L0 -20 L2.4 -18 Z" fill="#ffffff"/><path transform="rotate(120)" d="M0 0 L-2.4 -18 L0 -20 L2.4 -18 Z" fill="#ffffff"/><path transform="rotate(240)" d="M0 0 L-2.4 -18 L0 -20 L2.4 -18 Z" fill="#ffffff"/><circle r="2.6" fill="#e6f7ef"/></g></g></g><g transform="translate(250 98) scale(0.8)"><path d="M-1.6 0 L1.6 0 L.8 -40 L-.8 -40 Z" fill="#ffffff"/>
+            <g transform="translate(0 -40)"><g class="tv-spin"><path transform="rotate(0)" d="M0 0 L-2.4 -18 L0 -20 L2.4 -18 Z" fill="#ffffff"/><path transform="rotate(120)" d="M0 0 L-2.4 -18 L0 -20 L2.4 -18 Z" fill="#ffffff"/><path transform="rotate(240)" d="M0 0 L-2.4 -18 L0 -20 L2.4 -18 Z" fill="#ffffff"/><circle r="2.6" fill="#e6f7ef"/></g></g></g><path d="M0 150 C60 128 110 132 160 142 C210 152 250 136 300 140 L300 180 L0 180 Z" fill="#1fb36b"/><g><rect x="128" y="112" width="44" height="30" fill="#ffffff"/>
+      <path d="M122 114 L150 92 L178 114 Z" fill="#169a66"/><path d="M152 104 L172 104 L166 96 L148 96 Z" fill="#2f6fb5"/>
+      <rect x="136" y="120" width="10" height="10" fill="#ffe066"/><rect x="154" y="122" width="10" height="20" fill="#3b3a36"/></g><g fill="#ffffff" opacity=".95"><rect x="122" y="40" width="54" height="14" rx="7"/><rect x="136" y="30" width="26" height="18" rx="9"/></g><g transform="translate(104 140)"><rect x="-1.5" y="-6" width="3" height="7" fill="#7a5a3a"/><path d="M0 -26 L9 -6 L-9 -6 Z" fill="#0f8f55"/></g><g transform="translate(196 142)"><rect x="-1.5" y="-6" width="3" height="7" fill="#7a5a3a"/><path d="M0 -26 L9 -6 L-9 -6 Z" fill="#0f8f55"/></g><g transform="translate(212 146)"><rect x="-1.5" y="-6" width="3" height="7" fill="#7a5a3a"/><path d="M0 -26 L9 -6 L-9 -6 Z" fill="#0f8f55"/></g><path class="tv-twinkle" d="M110 58 l1.6 4.4 l4.4 1.6 l-4.4 1.6 l-1.6 4.4 l-1.6 -4.4 l-4.4 -1.6 l4.4 -1.6 Z" fill="#fff6c2"/><path class="tv-twinkle" d="M184 68 l1.6 4.4 l4.4 1.6 l-4.4 1.6 l-1.6 4.4 l-1.6 -4.4 l-4.4 -1.6 l4.4 -1.6 Z" fill="#fff6c2"/><path class="tv-twinkle" d="M30 80 l1.6 4.4 l4.4 1.6 l-4.4 1.6 l-1.6 4.4 l-1.6 -4.4 l-4.4 -1.6 l4.4 -1.6 Z" fill="#fff6c2"/></g>
+    <path d="M26 42 L130 42 L64 274 L26 274 Z" fill="#fff" opacity=".08"/>
+  </g>
+  <rect x="22" y="38" width="356" height="240" rx="14" fill="none" stroke="#3a434c" stroke-width="1.2"/>
+
+</svg>

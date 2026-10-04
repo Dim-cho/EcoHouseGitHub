@@ -1,0 +1,286 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #f6f4ee;
+  --ink: #1c211e;
+  --ink-soft: #5b625d;
+  --line: #dcd8cc;
+  --brand: #1f7a52;
+  --sky: #dcecf3;
+  --smog-sky: #e4dccb;
+  --band: #efebe1;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-line: var(--line);
+  --color-brand: var(--brand);
+  --color-sky: var(--sky);
+  --color-smog: var(--smog-sky);
+  --color-band: var(--band);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
+  --font-pixel: var(--font-matrix), var(--font-geist-mono), monospace;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Flex and grid children default to min-width:auto, so a wide descendant (a
+   card carousel, a long table) stretches its ancestors instead of scrolling
+   inside its own container. This lets them shrink; it does not clip anything,
+   so decorative overflow still shows. */
+body > *,
+main > * {
+  min-width: 0;
+}
+
+/* Anchors land below the 80px nav instead of under it. */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* The game's pixel font must not be anti-aliased or it loses its edges. */
+.font-pixel {
+  -webkit-font-smoothing: none;
+}
+
+/* Scrolls, but without the bar — the arrow buttons are the affordance. */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.waste {
+  background-image: repeating-linear-gradient(135deg, #f2c94c55 0 6px, transparent 6px 12px);
+  background-color: #fbf3d6;
+}
+
+.pulse-soft { animation: eh-pulse 2.4s ease-in-out infinite; }
+.cut-heat { animation: eh-heat 2.6s ease-in-out infinite; }
+.cut-glow { animation: eh-glow 3s ease-in-out infinite; }
+.cut-blink,
+.caret { animation: eh-blink 1.4s steps(1) infinite; }
+
+@keyframes eh-pulse {
+  50% { opacity: 0.35; }
+}
+
+@keyframes eh-heat {
+  50% { opacity: 0.55; transform: translateY(-3px); }
+}
+
+@keyframes eh-glow {
+  50% { opacity: 0.6; }
+}
+
+@keyframes eh-blink {
+  50% { opacity: 0; }
+}
+
+/* --- Hero: everything below is keyed off [data-state] on .hero --- */
+
+.hero {
+  --haze: 0;
+  --smog: 0;
+  --green: 1;
+  --far: #cfe6d3;
+  --near: #aed8b9;
+  --ink-ls: #7fb592;
+}
+
+.hero[data-state="1"] {
+  --haze: 1;
+  --smog: 1;
+  --green: 0;
+  --far: #ddd5c3;
+  --near: #cbc1a9;
+  --ink-ls: #a39883;
+}
+
+.hero[data-state="2"] {
+  --haze: 0.35;
+  --smog: 0.3;
+  --green: 0.5;
+  --far: #d6e2cf;
+  --near: #bdd5b4;
+  --ink-ls: #92a991;
+}
+
+.ls-far {
+  fill: var(--far);
+  transition: fill 1s;
+}
+
+.ls-near {
+  fill: var(--near);
+  transition: fill 1s;
+}
+
+.ls-house,
+.ls-tree,
+.ls-turb,
+.ls-smog-ink {
+  fill: var(--ink-ls);
+  transition: fill 1s, opacity 1s;
+}
+
+.ls-haze {
+  fill: #c9bc9c;
+  mix-blend-mode: multiply;
+  transition: opacity 1s;
+}
+
+.hero[data-state="1"] .ls-haze { opacity: 0.35 !important; }
+.hero[data-state="2"] .ls-haze { opacity: 0.1 !important; }
+.hero[data-state="3"] .ls-haze { opacity: 0 !important; }
+
+.ls-grow {
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  transition: transform 1s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+
+.hero[data-state="1"] .ls-grow { transform: scale(0); }
+.hero[data-state="2"] .ls-grow { transform: scale(0.6); }
+
+.ls-spin { animation: spin 5s linear infinite; }
+.ls-smoke { animation: smoke 4s ease-in-out infinite; }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes smoke {
+  50% { opacity: 0.8; transform: translate(-6px, -6px); }
+}
+
+/* Below lg there isn't room for a diagonal, so the deck becomes a crossfade:
+   only the chosen TV is visible and the others fade out in place. */
+.tv {
+  transform-origin: 0% 100%;
+  cursor: pointer;
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.6s ease, filter 0.8s;
+}
+
+.tv[data-slot="2"] {
+  z-index: 3;
+  opacity: 1;
+  filter: drop-shadow(0 20px 24px #1c211e1f);
+  transform: none;
+}
+
+.tv[data-slot="1"],
+.tv[data-slot="0"] {
+  z-index: 1;
+  opacity: 0;
+  pointer-events: none;
+  transform: none;
+}
+
+/* From lg up the deck fans out into the diagonal. */
+@media (min-width: 64rem) {
+  .tv[data-slot="2"] {
+    filter: drop-shadow(0 30px 30px #1c211e24);
+  }
+
+  .tv[data-slot="1"] {
+    z-index: 2;
+    opacity: 0.8;
+    pointer-events: auto;
+    filter: saturate(0.6);
+    transform: translate(78%, -44%) scale(0.92);
+  }
+
+  .tv[data-slot="0"] {
+    z-index: 1;
+    opacity: 0.55;
+    pointer-events: auto;
+    filter: saturate(0.35) blur(0.5px);
+    transform: translate(140%, -76%) scale(0.72);
+  }
+}
+
+.grain {
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+.dots {
+  background-image: radial-gradient(#1c211e29 1px, #0000 1.2px);
+  background-size: 22px 22px;
+  -webkit-mask-image: radial-gradient(closest-side at 60% 55%, #000 40%, #0000 100%);
+  mask-image: radial-gradient(closest-side at 60% 55%, #000 40%, #0000 100%);
+}
+
+/* Entrance: each piece rises and fades in, staggered down the page. */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise-in 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+}
+
+.rise-1 { animation-delay: 0.05s; }
+.rise-2 { animation-delay: 0.15s; }
+.rise-3 { animation-delay: 0.25s; }
+.rise-4 { animation-delay: 0.35s; }
+
+/* The deck fades in without a transform: it has its own slot transforms and a
+   second one here would fight them. */
+@keyframes fade-in {
+  from { opacity: 0; }
+}
+
+.fade-in {
+  animation: fade-in 0.9s ease-out 0.3s backwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ls-spin,
+  .ls-smoke { animation: none; }
+
+  .tv,
+  .ls-grow,
+  .ls-far,
+  .ls-near { transition: none; }
+
+  .rise,
+  .fade-in { animation: none; }
+}
