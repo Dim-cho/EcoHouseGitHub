@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* -text
+*.cs text
+*.unity text
+*.asset text
+*.meta text
+*.prefab text

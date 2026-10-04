@@ -1,0 +1,899 @@
+fileFormatVersion: 2
+guid: 17cf2f88ff0c4bf47a205c39548df50d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2677843599255107654
+    second: electrical-appliances-sprite-strip-v3 1_0
+  - first:
+      213: 1023405079317498860
+    second: electrical-appliances-sprite-strip-v3 1_1
+  - first:
+      213: 2306658168230972169
+    second: electrical-appliances-sprite-strip-v3 1_2
+  - first:
+      213: 7328861585330758194
+    second: electrical-appliances-sprite-strip-v3 1_3
+  - first:
+      213: -6810537696544929158
+    second: electrical-appliances-sprite-strip-v3 1_4
+  - first:
+      213: 7878852298857577380
+    second: electrical-appliances-sprite-strip-v3 1_5
+  - first:
+      213: 3506517607848341230
+    second: electrical-appliances-sprite-strip-v3 1_6
+  - first:
+      213: -1926192361724034662
+    second: electrical-appliances-sprite-strip-v3 1_7
+  - first:
+      213: -4765276080750073629
+    second: electrical-appliances-sprite-strip-v3 1_8
+  - first:
+      213: -7030682249557050751
+    second: electrical-appliances-sprite-strip-v3 1_9
+  - first:
+      213: -2992763121659553217
+    second: electrical-appliances-sprite-strip-v3 1_10
+  - first:
+      213: -589582932272385992
+    second: electrical-appliances-sprite-strip-v3 1_11
+  - first:
+      213: 2640763552686957244
+    second: electrical-appliances-sprite-strip-v3 1_12
+  - first:
+      213: 2083935389862547896
+    second: electrical-appliances-sprite-strip-v3 1_13
+  - first:
+      213: 2502822381985034622
+    second: electrical-appliances-sprite-strip-v3 1_14
+  - first:
+      213: 244642739720587814
+    second: electrical-appliances-sprite-strip-v3 1_15
+  - first:
+      213: -4325546317068045534
+    second: electrical-appliances-sprite-strip-v3 1_16
+  - first:
+      213: -30284372750942021
+    second: electrical-appliances-sprite-strip-v3 1_17
+  - first:
+      213: 8151074147965349211
+    second: electrical-appliances-sprite-strip-v3 1_18
+  - first:
+      213: 4731446150592314249
+    second: electrical-appliances-sprite-strip-v3 1_19
+  - first:
+      213: -2420399457640338608
+    second: electrical-appliances-sprite-strip-v3 1_20
+  - first:
+      213: -8673468627911866559
+    second: electrical-appliances-sprite-strip-v3 1_21
+  - first:
+      213: 3521364124229274713
+    second: electrical-appliances-sprite-strip-v3 1_22
+  - first:
+      213: 8950575540632718983
+    second: electrical-appliances-sprite-strip-v3 1_23
+  - first:
+      213: -8500824702609661840
+    second: electrical-appliances-sprite-strip-v3 1_24
+  - first:
+      213: -6040842654333687021
+    second: electrical-appliances-sprite-strip-v3 1_25
+  - first:
+      213: 5216986205151475183
+    second: electrical-appliances-sprite-strip-v3 1_26
+  - first:
+      213: 5988372299052001665
+    second: electrical-appliances-sprite-strip-v3 1_27
+  - first:
+      213: -1142914996439747462
+    second: electrical-appliances-sprite-strip-v3 1_28
+  - first:
+      213: -1277731640936670135
+    second: electrical-appliances-sprite-strip-v3 1_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7885e2f6366dad0800000000000000
+      internalID: -2677843599255107654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 2
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebcc065f7dd33e00800000000000000
+      internalID: 1023405079317498860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b09aff165e20020800000000000000
+      internalID: 2306658168230972169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_3
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 10
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23265a928c855b560800000000000000
+      internalID: 7328861585330758194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 4
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a480c7c0c1c71a0800000000000000
+      internalID: -6810537696544929158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_5
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 8
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abfc2ffb6e475d60800000000000000
+      internalID: 7878852298857577380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_6
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 4
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeee37e9f27a9a030800000000000000
+      internalID: 3506517607848341230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_7
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 0
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a914e5e904ac445e0800000000000000
+      internalID: -1926192361724034662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_8
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8e93ee6a65eddb0800000000000000
+      internalID: -4765276080750073629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_9
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 0
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18af1828ebffd6e90800000000000000
+      internalID: -7030682249557050751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_10
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 52
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ad7941cc19776d0800000000000000
+      internalID: -2992763121659553217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_11
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 4
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8307544627161d7f0800000000000000
+      internalID: -589582932272385992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_12
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 4
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb264b5b570e5a420800000000000000
+      internalID: 2640763552686957244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_13
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 48
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b15f972230abec10800000000000000
+      internalID: 2083935389862547896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_14
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 6
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e717d1622bfcbb220800000000000000
+      internalID: 2502822381985034622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_15
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 48
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a8ced8645256300800000000000000
+      internalID: 244642739720587814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_16
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 4
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223f8a7da8298f3c0800000000000000
+      internalID: -4325546317068045534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_17
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 4
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb04feff588649ff0800000000000000
+      internalID: -30284372750942021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_18
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 0
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d285750ce6e1170800000000000000
+      internalID: 8151074147965349211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_19
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 0
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bb1f7a43979a140800000000000000
+      internalID: 4731446150592314249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_20
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 0
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bacc06483096ed0800000000000000
+      internalID: -2420399457640338608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 8
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14781d6ac36a1a780800000000000000
+      internalID: -8673468627911866559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_22
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 8
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c8d7593066ed030800000000000000
+      internalID: 3521364124229274713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_23
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 8
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e86b23805d63c70800000000000000
+      internalID: 8950575540632718983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_24
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 4
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070e517e8f0070a80800000000000000
+      internalID: -8500824702609661840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_25
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 4
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ba9649c9d9a2ca0800000000000000
+      internalID: -6040842654333687021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_26
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 12
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5ba241055766840800000000000000
+      internalID: 5216986205151475183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_27
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 22
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189a8c3d0e8fa1350800000000000000
+      internalID: 5988372299052001665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_28
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 12
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74fdbcbddc8320f0800000000000000
+      internalID: -1142914996439747462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electrical-appliances-sprite-strip-v3 1_29
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 4
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c51bf97d5944ee0800000000000000
+      internalID: -1277731640936670135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 963574a986af74e49b905dfc98e48adc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      electrical-appliances-sprite-strip-v3 1_0: -2677843599255107654
+      electrical-appliances-sprite-strip-v3 1_1: 1023405079317498860
+      electrical-appliances-sprite-strip-v3 1_10: -2992763121659553217
+      electrical-appliances-sprite-strip-v3 1_11: -589582932272385992
+      electrical-appliances-sprite-strip-v3 1_12: 2640763552686957244
+      electrical-appliances-sprite-strip-v3 1_13: 2083935389862547896
+      electrical-appliances-sprite-strip-v3 1_14: 2502822381985034622
+      electrical-appliances-sprite-strip-v3 1_15: 244642739720587814
+      electrical-appliances-sprite-strip-v3 1_16: -4325546317068045534
+      electrical-appliances-sprite-strip-v3 1_17: -30284372750942021
+      electrical-appliances-sprite-strip-v3 1_18: 8151074147965349211
+      electrical-appliances-sprite-strip-v3 1_19: 4731446150592314249
+      electrical-appliances-sprite-strip-v3 1_2: 2306658168230972169
+      electrical-appliances-sprite-strip-v3 1_20: -2420399457640338608
+      electrical-appliances-sprite-strip-v3 1_21: -8673468627911866559
+      electrical-appliances-sprite-strip-v3 1_22: 3521364124229274713
+      electrical-appliances-sprite-strip-v3 1_23: 8950575540632718983
+      electrical-appliances-sprite-strip-v3 1_24: -8500824702609661840
+      electrical-appliances-sprite-strip-v3 1_25: -6040842654333687021
+      electrical-appliances-sprite-strip-v3 1_26: 5216986205151475183
+      electrical-appliances-sprite-strip-v3 1_27: 5988372299052001665
+      electrical-appliances-sprite-strip-v3 1_28: -1142914996439747462
+      electrical-appliances-sprite-strip-v3 1_29: -1277731640936670135
+      electrical-appliances-sprite-strip-v3 1_3: 7328861585330758194
+      electrical-appliances-sprite-strip-v3 1_4: -6810537696544929158
+      electrical-appliances-sprite-strip-v3 1_5: 7878852298857577380
+      electrical-appliances-sprite-strip-v3 1_6: 3506517607848341230
+      electrical-appliances-sprite-strip-v3 1_7: -1926192361724034662
+      electrical-appliances-sprite-strip-v3 1_8: -4765276080750073629
+      electrical-appliances-sprite-strip-v3 1_9: -7030682249557050751
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
