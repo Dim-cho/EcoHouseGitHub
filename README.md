@@ -1,2 +1,2 @@
-# Djonka_Hackathon-main_nqkoi
+Сложили сме сайта в папка. 
 
